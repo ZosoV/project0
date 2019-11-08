@@ -1,0 +1,106 @@
+
+.nav-item:hover {
+    background-color: #b9bdb9;
+  }
+  
+  .profile{
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image{
+    width: 400px;
+    height: 450px;
+    margin: 0 auto; /* requerido para alineación horizontal */
+  }
+  
+  .body-info{
+    background: #b9bdb9;
+  }
+  
+  .middle-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .middle-text > h1{
+   font-size: 40px;
+  }
+
+  .middle-text > p{
+    padding: 30px;
+  }
+  
+@media (min-width: 500px) {
+    .name-text > h1::before {
+        content: "OSCAR VICENTE GUARNIZO CABEZAS";
+    }
+}
+
+@media (max-width: 499px) {
+    .name-text > h1::before {
+        content: "OSCAR GUARNIZO";
+    }
+}
+  
+  p, h1, h2, h3, h4 {
+    font-family: "sans-serif";
+  }
+
+$padding_size: 140px;
+
+.center-title{
+//  background-color: #1B5B73;
+  background-image: url(../images/img_black_texture.jpg);
+  background-repeat:repeat;
+ padding-top: $padding_size;
+ padding-bottom: $padding_size;  
+}
+  
+.notice-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    img {
+        width: 250px;
+        height: 250px;  
+        padding: 1%;
+    }
+  }
+
+.container-cards{
+  display: flex;
+  justify-content: center;
+  padding-left: 6%;
+  padding-left: 6%;
+}
+
+.row > div{
+  padding: 20px;
+}
+
+td, th {
+  padding-left: 20px;
+}
+
+.center-content{
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+  
+    ul{
+      margin: 0 auto; /* requerido para alineación horizontal */
+    }
+
+    .row{
+      margin: 0 auto; /* requerido para alineación horizontal */
+    }
+
+    table{
+      margin: 0 auto; /* requerido para alineación horizontal */
+    }
+}

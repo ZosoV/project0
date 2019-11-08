@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'node-sass',
+1 verbose cli   '--watch',
+1 verbose cli   'styles.scss',
+1 verbose cli   'styles.css' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose stack Error: ENOENT: no such file or directory, open '/home/zoso/MEGAsync/010-DECIMO SEMESTRE/PROGRAMCIÓN WEB/Proyectos/Proyecto0/project0/styles/package.json'
+5 verbose cwd /home/zoso/MEGAsync/010-DECIMO SEMESTRE/PROGRAMCIÓN WEB/Proyectos/Proyecto0/project0/styles
+6 error Linux 5.0.0-27-generic
+7 error argv "/usr/bin/node" "/usr/bin/npm" "run" "node-sass" "--watch" "styles.scss" "styles.css"
+8 error node v8.10.0
+9 error npm  v3.5.2
+10 error path /home/zoso/MEGAsync/010-DECIMO SEMESTRE/PROGRAMCIÓN WEB/Proyectos/Proyecto0/project0/styles/package.json
+11 error code ENOENT
+12 error errno -2
+13 error syscall open
+14 error enoent ENOENT: no such file or directory, open '/home/zoso/MEGAsync/010-DECIMO SEMESTRE/PROGRAMCIÓN WEB/Proyectos/Proyecto0/project0/styles/package.json'
+15 error enoent ENOENT: no such file or directory, open '/home/zoso/MEGAsync/010-DECIMO SEMESTRE/PROGRAMCIÓN WEB/Proyectos/Proyecto0/project0/styles/package.json'
+15 error enoent This is most likely not a problem with npm itself
+15 error enoent and is related to npm not being able to find a file.
+16 verbose exit [ -2, true ]
